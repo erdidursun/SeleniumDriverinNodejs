@@ -1,0 +1,19 @@
+html
+ head
+  title #{title}
+  style
+   include style.css 
+ body
+  #rightside   
+   #profile
+  #center
+   ul 
+    li GÖNDEREN  |  MAIL ADRESI  |  MAIL BAŞLIK
+    - for (var x = 0; x < senders.length; x++){  
+     li=senders[x]
+     ul
+      li= mails[x]
+      li=details[x]
+
+    - }  	
+  #leftside 	

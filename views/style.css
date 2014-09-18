@@ -1,0 +1,26 @@
+
+#center{
+	float: left;	
+	background-color: aliceblue;
+}
+
+#center ul{
+	background-color: orange;
+	margin: 50px;
+	padding: 10px;
+}
+#center ul li {
+	margin: 10px;
+	padding: 15px;
+	background-color: yellow;
+	color: black
+}
+#center ul ul{
+	margin: 0px;
+}
+#center ul ul li {
+	margin: 0px;
+	margin-left: 10px;	
+	background-color: aliceblue;
+	color: darkblue
+}
