@@ -6,4 +6,4 @@ And then you must copy it to  this directory ==> /usr/local/bin/
 
 
 
-load necessary module code ==> npm install
+load necessary module ==> npm install
