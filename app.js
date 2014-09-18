@@ -58,7 +58,7 @@ app.get('/',function(req,res){
 	
 		
 		driver.get('http://www.gmail.com').then(function(){
-		    setEmail('Email','erdidursun13');
+		    setEmail('Email','your_e-mailhere');
 		    setPassword('Passwd','yourpasswordhere');
 		    driver.findElement(webdriver.By.name('signIn')).submit();
 		    setTimeout(function(){
