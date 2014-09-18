@@ -1,1 +1,5 @@
-If you want to use this code you must download chromedriver and copy to /usr/local/bin/chromedriver
+Firstly this project requires chromedriver.
+
+You should download here==> https://code.google.com/p/selenium/wiki/ChromeDriver
+
+And then you must copy it to /usr/local/bin/ directory
